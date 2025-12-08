@@ -1,4 +1,4 @@
-app-id: io.github.masterbillwoo.RiseOfThePenguinsGB
+﻿app-id: io.github.masterbillwoo.RiseOfThePenguinsGB
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
@@ -30,14 +30,14 @@ modules:
       - install -Dm644 icons/64x64.png /app/share/icons/hicolor/64x64/apps/io.github.masterbillwoo.RiseOfThePenguinsGB.png
     sources:
       - type: archive
-        url: https://github.com/masterbillwoo/riseofthepenguinsgb/raw/0cf27adc60d1dd0f6942b404c399cc58ade4f6fb/rise-of-the-penguins-gb-linux-x86_64-v1.0.0.zip
-        sha256: 66e9cb013aa82bcabf80804779bacc7d03b9eefad43228a62673926e87bb2d76
+        url: https://github.com/masterbillwoo/riseofthepenguinsgb/raw/cf15562b95c494d620870d1bd5cb84f6847b29a7/rise-of-the-penguins-gb-linux-x86_64-v1.0.5.zip
+        sha256: 350ef8015deae254745193ec06d7de386aea8b50bc5a584ce9fbe2e9025c576b
         strip-components: 0
         only-arches:
           - x86_64
       - type: archive
-        url: https://github.com/masterbillwoo/riseofthepenguinsgb/raw/0cf27adc60d1dd0f6942b404c399cc58ade4f6fb/rise-of-the-penguins-gb-linux-aarch64-v1.0.0.zip
-        sha256: 69a10349b98374878c1ded783d6ced481c78da0bf9f923e8ef8fb13e167a88d0
+        url: https://github.com/masterbillwoo/riseofthepenguinsgb/raw/cf15562b95c494d620870d1bd5cb84f6847b29a7/rise-of-the-penguins-gb-linux-aarch64-v1.0.5.zip
+        sha256: 498b4d31f0729501fdbb3aa010ff38e24feef7fba7a3714a5e54a44ab4fabf95
         strip-components: 0
         only-arches:
           - aarch64
